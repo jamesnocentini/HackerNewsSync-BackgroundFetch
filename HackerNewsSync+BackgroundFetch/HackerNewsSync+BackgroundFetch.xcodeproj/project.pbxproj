@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEFD214E1AA8A4DA00D23E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD214D1AA8A4DA00D23E1E /* main.m */; };
+		BEFD21511AA8A4DA00D23E1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD21501AA8A4DA00D23E1E /* AppDelegate.m */; };
+		BEFD21541AA8A4DA00D23E1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD21531AA8A4DA00D23E1E /* ViewController.m */; };
+		BEFD21571AA8A4DA00D23E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFD21551AA8A4DA00D23E1E /* Main.storyboard */; };
+		BEFD21591AA8A4DA00D23E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFD21581AA8A4DA00D23E1E /* Images.xcassets */; };
+		BEFD215C1AA8A4DA00D23E1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD215A1AA8A4DA00D23E1E /* LaunchScreen.xib */; };
+		BEFD21681AA8A4DA00D23E1E /* HackerNewsSync_BackgroundFetchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD21671AA8A4DA00D23E1E /* HackerNewsSync_BackgroundFetchTests.m */; };
+		D4884A86ED74677E96542813 /* libPods-HackerNewsSync+BackgroundFetch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DEAF74D92C341DA6A734A2 /* libPods-HackerNewsSync+BackgroundFetch.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEFD21621AA8A4DA00D23E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEFD21401AA8A4DA00D23E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFD21471AA8A4DA00D23E1E;
+			remoteInfo = "HackerNewsSync+BackgroundFetch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEFD21481AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackerNewsSync+BackgroundFetch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFD214C1AA8A4DA00D23E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFD214D1AA8A4DA00D23E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEFD214F1AA8A4DA00D23E1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEFD21501AA8A4DA00D23E1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEFD21521AA8A4DA00D23E1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEFD21531AA8A4DA00D23E1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEFD21561AA8A4DA00D23E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEFD21581AA8A4DA00D23E1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEFD215B1AA8A4DA00D23E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEFD21611AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackerNewsSync+BackgroundFetchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFD21661AA8A4DA00D23E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFD21671AA8A4DA00D23E1E /* HackerNewsSync_BackgroundFetchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerNewsSync_BackgroundFetchTests.m; sourceTree = "<group>"; };
+		D1DEAF74D92C341DA6A734A2 /* libPods-HackerNewsSync+BackgroundFetch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNewsSync+BackgroundFetch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB831BE3F131D29F0949F5E /* Pods-HackerNewsSync+BackgroundFetch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsSync+BackgroundFetch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerNewsSync+BackgroundFetch/Pods-HackerNewsSync+BackgroundFetch.debug.xcconfig"; sourceTree = "<group>"; };
+		EF32659948A85599AC0BFA61 /* Pods-HackerNewsSync+BackgroundFetch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsSync+BackgroundFetch.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerNewsSync+BackgroundFetch/Pods-HackerNewsSync+BackgroundFetch.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFD21451AA8A4DA00D23E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4884A86ED74677E96542813 /* libPods-HackerNewsSync+BackgroundFetch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD215E1AA8A4DA00D23E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A419E748A9D6B36453A9FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB831BE3F131D29F0949F5E /* Pods-HackerNewsSync+BackgroundFetch.debug.xcconfig */,
+				EF32659948A85599AC0BFA61 /* Pods-HackerNewsSync+BackgroundFetch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2C576D189F7AF088272334B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DEAF74D92C341DA6A734A2 /* libPods-HackerNewsSync+BackgroundFetch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEFD213F1AA8A4DA00D23E1E = {
+			isa = PBXGroup;
+			children = (
+				BEFD214A1AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch */,
+				BEFD21641AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests */,
+				BEFD21491AA8A4DA00D23E1E /* Products */,
+				48A419E748A9D6B36453A9FB /* Pods */,
+				A2C576D189F7AF088272334B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFD21491AA8A4DA00D23E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD21481AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch.app */,
+				BEFD21611AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFD214A1AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD214F1AA8A4DA00D23E1E /* AppDelegate.h */,
+				BEFD21501AA8A4DA00D23E1E /* AppDelegate.m */,
+				BEFD21521AA8A4DA00D23E1E /* ViewController.h */,
+				BEFD21531AA8A4DA00D23E1E /* ViewController.m */,
+				BEFD21551AA8A4DA00D23E1E /* Main.storyboard */,
+				BEFD21581AA8A4DA00D23E1E /* Images.xcassets */,
+				BEFD215A1AA8A4DA00D23E1E /* LaunchScreen.xib */,
+				BEFD214B1AA8A4DA00D23E1E /* Supporting Files */,
+			);
+			path = "HackerNewsSync+BackgroundFetch";
+			sourceTree = "<group>";
+		};
+		BEFD214B1AA8A4DA00D23E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD214C1AA8A4DA00D23E1E /* Info.plist */,
+				BEFD214D1AA8A4DA00D23E1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEFD21641AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD21671AA8A4DA00D23E1E /* HackerNewsSync_BackgroundFetchTests.m */,
+				BEFD21651AA8A4DA00D23E1E /* Supporting Files */,
+			);
+			path = "HackerNewsSync+BackgroundFetchTests";
+			sourceTree = "<group>";
+		};
+		BEFD21651AA8A4DA00D23E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD21661AA8A4DA00D23E1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFD21471AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFD216B1AA8A4DA00D23E1E /* Build configuration list for PBXNativeTarget "HackerNewsSync+BackgroundFetch" */;
+			buildPhases = (
+				6C3B198C991ECCED0D1F42AA /* Check Pods Manifest.lock */,
+				BEFD21441AA8A4DA00D23E1E /* Sources */,
+				BEFD21451AA8A4DA00D23E1E /* Frameworks */,
+				BEFD21461AA8A4DA00D23E1E /* Resources */,
+				45DCDBC935285EED3F3B6877 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HackerNewsSync+BackgroundFetch";
+			productName = "HackerNewsSync+BackgroundFetch";
+			productReference = BEFD21481AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEFD21601AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFD216E1AA8A4DA00D23E1E /* Build configuration list for PBXNativeTarget "HackerNewsSync+BackgroundFetchTests" */;
+			buildPhases = (
+				BEFD215D1AA8A4DA00D23E1E /* Sources */,
+				BEFD215E1AA8A4DA00D23E1E /* Frameworks */,
+				BEFD215F1AA8A4DA00D23E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFD21631AA8A4DA00D23E1E /* PBXTargetDependency */,
+			);
+			name = "HackerNewsSync+BackgroundFetchTests";
+			productName = "HackerNewsSync+BackgroundFetchTests";
+			productReference = BEFD21611AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFD21401AA8A4DA00D23E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Nocentini";
+				TargetAttributes = {
+					BEFD21471AA8A4DA00D23E1E = {
+						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BEFD21601AA8A4DA00D23E1E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BEFD21471AA8A4DA00D23E1E;
+					};
+				};
+			};
+			buildConfigurationList = BEFD21431AA8A4DA00D23E1E /* Build configuration list for PBXProject "HackerNewsSync+BackgroundFetch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEFD213F1AA8A4DA00D23E1E;
+			productRefGroup = BEFD21491AA8A4DA00D23E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFD21471AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch */,
+				BEFD21601AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFD21461AA8A4DA00D23E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD21571AA8A4DA00D23E1E /* Main.storyboard in Resources */,
+				BEFD215C1AA8A4DA00D23E1E /* LaunchScreen.xib in Resources */,
+				BEFD21591AA8A4DA00D23E1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD215F1AA8A4DA00D23E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45DCDBC935285EED3F3B6877 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerNewsSync+BackgroundFetch/Pods-HackerNewsSync+BackgroundFetch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C3B198C991ECCED0D1F42AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFD21441AA8A4DA00D23E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD21541AA8A4DA00D23E1E /* ViewController.m in Sources */,
+				BEFD21511AA8A4DA00D23E1E /* AppDelegate.m in Sources */,
+				BEFD214E1AA8A4DA00D23E1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD215D1AA8A4DA00D23E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD21681AA8A4DA00D23E1E /* HackerNewsSync_BackgroundFetchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEFD21631AA8A4DA00D23E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEFD21471AA8A4DA00D23E1E /* HackerNewsSync+BackgroundFetch */;
+			targetProxy = BEFD21621AA8A4DA00D23E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEFD21551AA8A4DA00D23E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFD21561AA8A4DA00D23E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFD215A1AA8A4DA00D23E1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFD215B1AA8A4DA00D23E1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFD21691AA8A4DA00D23E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEFD216A1AA8A4DA00D23E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFD216C1AA8A4DA00D23E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB831BE3F131D29F0949F5E /* Pods-HackerNewsSync+BackgroundFetch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HackerNewsSync+BackgroundFetch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEFD216D1AA8A4DA00D23E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF32659948A85599AC0BFA61 /* Pods-HackerNewsSync+BackgroundFetch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HackerNewsSync+BackgroundFetch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEFD216F1AA8A4DA00D23E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackerNewsSync+BackgroundFetchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerNewsSync+BackgroundFetch.app/HackerNewsSync+BackgroundFetch";
+			};
+			name = Debug;
+		};
+		BEFD21701AA8A4DA00D23E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackerNewsSync+BackgroundFetchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerNewsSync+BackgroundFetch.app/HackerNewsSync+BackgroundFetch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFD21431AA8A4DA00D23E1E /* Build configuration list for PBXProject "HackerNewsSync+BackgroundFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFD21691AA8A4DA00D23E1E /* Debug */,
+				BEFD216A1AA8A4DA00D23E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFD216B1AA8A4DA00D23E1E /* Build configuration list for PBXNativeTarget "HackerNewsSync+BackgroundFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFD216C1AA8A4DA00D23E1E /* Debug */,
+				BEFD216D1AA8A4DA00D23E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFD216E1AA8A4DA00D23E1E /* Build configuration list for PBXNativeTarget "HackerNewsSync+BackgroundFetchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFD216F1AA8A4DA00D23E1E /* Debug */,
+				BEFD21701AA8A4DA00D23E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFD21401AA8A4DA00D23E1E /* Project object */;
+}
